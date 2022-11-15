@@ -9,48 +9,48 @@ definition of intelligence called rationality—loosely speaking, doing the “r
 varies: some consider intelligence to be a property of internal thought processes and reasoning, while others focus
 on intelligent behavior, an external characterization.
 From these two dimensions—human vs. rational and thought vs. behavior, there are four possible combinations
-1. Acting humanly: The Turing test approach
-2. Thinking humanly: The cognitive modeling approach
-3. Acting rationally: The rational agent approach
-4. Thinking rationally: The “laws of thought” approach
+A. Acting humanly: The Turing test approach
+B. Thinking humanly: The cognitive modeling approach
+C. Acting rationally: The rational agent approach
+D. Thinking rationally: The “laws of thought” approach
 
-1. Acting humanly:-
+A. Acting humanly:-
 The Turing test, proposed by Alan Turing (1950), was designed as a thought experiment that would sidestep the
 philosophical vagueness of the question “Can a machine think?” A computer passes the test if a human interrogator,
 after posing some written questions, cannot tell whether the written responses come from a person or from a
 computer.
-For Machines to think, we would need:
-> natural language processing to communicate successfully in a human language.
-> knowledge representation to store what it knows or hears.
-> automated reasoning to answer questions and to draw new conclusions.
-machine learning to adapt to new circumstances and to detect and extrapolate patterns.
-To pass the total Turing test, a robot will need
-> computer vision and speech recognition to perceive the world.
-> robotics to manipulate objects and move about.
 
-2. Thinking humanly:-
-We can learn about human thought in three ways:
-> introspection—trying to catch our own thoughts as they go by;
-> psychological experiments—observing a person in action;
-> brain imaging—observing the brain in action.
+For Machines to think, we would need
+a. natural language processing to communicate successfully in a human language.
+b. knowledge representation to store what it knows or hears.
+c. automated reasoning to answer questions and to draw new conclusions.
+d. machine learning to adapt to new circumstances and to detect and extrapolate patterns.
+
+To pass the total Turing test, a robot will need
+a. computer vision and speech recognition to perceive the world.
+b. robotics to manipulate objects and move about.
+
+B. Thinking humanly:-
+  We can learn about human thought in three ways
+a. introspection—trying to catch our own thoughts as they go by;
+b. psychological experiments—observing a person in action;
+c. brain imaging—observing the brain in action.
 Once we have a sufficiently precise theory of the mind, it becomes possible to express the theory as a computer
 program.
 
-3. Acting rationally:-
+C. Acting rationally:-
 The Greek philosopher Aristotle was one of the first to attempt to codify “right thinking”, their study initiated the
 field called logic.
 Logicians in the 19th century developed a precise notation for statements about objects in the world and the relations
-among them.
-By 1965, programs could, in principle, solve any solvable problem described in logical notation. The so-called
+among them. By 1965, programs could, in principle, solve any solvable problem described in logical notation. The so-called
 logicist tradition within artificial intelligence hopes to build on such programs to create intelligent systems
 The theory of probability fills this gap, allowing rigorous reasoning with uncertain information.
 
-4. Thinking rationally:-
+D. Thinking rationally:-
 Agents: An agent is just something that acts. Computer agents are expected to do more: operate autonomously,
 perceive their environment, persist over a prolonged time period, adapt to change, and create and pursue goals.
 Rational Agents: A rational agent is one that acts so as to achieve the best outcome or, when there is uncertainty,
-the best expected outcome.
-AI has focused on the study and construction of agents that do the right thing. What counts as the right thing is
+the best expected outcome. AI has focused on the study and construction of agents that do the right thing. What counts as the right thing is
 defined by the objective that we provide to the agent. This general paradigm is so pervasive that we might call it the
 standard model. It prevails not only in AI, but also in control theory, where a controller minimizes a cost function; in
 operations research, where a policy maximizes a sum of rewards; in statistics, where a decision rule minimizes a loss
